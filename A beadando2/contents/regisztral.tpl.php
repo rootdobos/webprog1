@@ -38,7 +38,7 @@
         }      
     }
     else {
-        header("Location: index.php/?oldal=belepes");
+        header("Location: .");
     }
 
 

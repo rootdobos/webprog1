@@ -11,7 +11,7 @@ $oldalak = array(
 'cimlap' => array('fajl' => 'cimlap', 'cim' => 'Hello'),
 'diplomaoszto' => array('fajl' => 'diplomaoszto', 'cim' => 'Diplomaosztó'),
 'galeria' => array('fajl' => 'galeria', 'cim' => 'Galéria'),
-'statisztika' => array('fajl' => 'statisztika', 'cim' => 'Statisztika'),
+'uzenet' => array('fajl' => 'uzenet', 'cim' => 'Üzenet'),
 'versenyek' => array('fajl' => 'versenyek', 'cim' => 'Versenyek'),
 'belepes' => array('fajl' => 'belepes', 'cim' => 'Belépés'),
 'regisztral' => array('fajl' => 'regisztral'),

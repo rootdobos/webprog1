@@ -15,18 +15,20 @@ session_start();
       <img src="./kepek/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
       <?php if(isset($_SESSION['login'])) { echo "<p>Bejelentkezve: ".$_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")</p>" ; }
       else{
-       echo "<p>Haejho</p>";
       }?>
     </header>
     <nav>
       <ul>
-        <?php if(isset($_SESSION['login'])) { echo '<li><a class="aktiv" href="?oldal=kilepes'.'">'.$oldalleir["cim"].'</a></li>'; } ?>
+        <?php if(isset($_SESSION['login'])) { echo '<li><a class="aktiv" href="?oldal=kilepes'.'">'.$oldalak["kilepes"]["cim"].'</a></li>'; } 
+        else { echo '<li><a class="aktiv" href="?oldal=belepes'.'">'.$oldalak["belepes"]["cim"].'</a></li>'; } ?>
       <?php
       foreach ($oldalak as $oldalnev => $oldalleir) {
-        if ($oldalleir == $keres) {
+        if($oldalnev!= 'belepes' && $oldalnev!= 'belep' &&$oldalnev!= 'kilepes' &&$oldalnev!= 'regisztral'  ){
+        if ($oldalleir == $keres) { 
           echo '<li><a class="aktiv" href="?oldal='.$oldalnev.'">'.$oldalleir["cim"].'</a></li>';
         } else {
           echo '<li><a href="?oldal='.$oldalnev.'">'.$oldalleir["cim"].'</a></li>';
+        }
         }
       }
       ?>
