@@ -8,11 +8,10 @@ $fejlec = array(
 	'motto' => ''
 );
 $oldalak = array(
-'cimlap' => array('fajl' => 'cimlap', 'cim' => 'Hello'),
+'cimlap' => array('fajl' => 'cimlap', 'cim' => 'Főoldal'),
 'diplomaoszto' => array('fajl' => 'diplomaoszto', 'cim' => 'Diplomaosztó'),
 'galeria' => array('fajl' => 'galeria', 'cim' => 'Galéria'),
-'statisztika' => array('fajl' => 'statisztika', 'cim' => 'Statisztika'),
-'versenyek' => array('fajl' => 'versenyek', 'cim' => 'Versenyek'),
+'uzenet' => array('fajl' => 'uzenet', 'cim' => 'Üzenet'),
 'belepes' => array('fajl' => 'belepes', 'cim' => 'Belépés'),
 'regisztral' => array('fajl' => 'regisztral'),
 'belep' => array('fajl' => 'belep'),
@@ -24,4 +23,7 @@ $lablec = array(
 );
 
 $hiba_oldal = array('fajl' => '404', 'cim' => 'Hiba');
+$kepek_mappa = './kepekgaleria/';
+    $types = array ('.jpg', '.png');
+    $mediatypes = array('image/jpeg', 'image/png');
 ?>

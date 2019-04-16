@@ -3,4 +3,5 @@ $data = $_SESSION;
 unset($_SESSION["csn"]);
 unset($_SESSION["un"]);
 unset($_SESSION["login"]);
+echo "<p>A felhasználó kilépett</p>";
 ?>
