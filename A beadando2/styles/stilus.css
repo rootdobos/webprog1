@@ -1,0 +1,27 @@
+
+body {
+  background-color: #00ccff;
+  color: #757575;
+  font-family: Arial;
+  font-size: 11pt;
+}
+div.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  height: 80px;
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+div.kep {
+    display: inline-block;
+    }
+div.kep img {
+width: 400px;
+}
+.kereses{
+    padding-bottom: 15px;
+}

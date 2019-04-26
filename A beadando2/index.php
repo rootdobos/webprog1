@@ -1,5 +1,8 @@
 <?php
 include ('./config/config.php');
+
+session_start();
+// Start the session
 $keres=current($oldalak);
 	if (isset($_GET['oldal'])) 
 	{
@@ -15,4 +18,5 @@ $keres=current($oldalak);
 	}
 	
 	include('./template/index.tpl.php')
+	
 	?>

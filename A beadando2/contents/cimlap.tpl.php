@@ -1,3 +1,14 @@
+<aside>
+
+        </section>
+        <section>
+          <img src="./kepek/for-every-child.jpg">
+        </section>
+        <section>
+          <h2>Education</h2>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N14_XNH8Mqs" frameborder="3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      </aside>
 <h2>Története</h2>
 <p> Az ENSZ Közgyűlése az alapot ideiglenes jelleggel hozta létre 1946. december 11-én. Mivel a II. világháború után az európai gyerekek éhínséggel és betegségekkel küzdöttek, az UNICEF legfőbb célja az élelmiszer, a ruházat és az egészségügyi ellátás biztosítása volt. Az UNICEF alapítójaként Ludwik Rajchman lengyel orvost tekintik, aki 1946-tól töltötte be az első elnöki posztot.<br>
 
